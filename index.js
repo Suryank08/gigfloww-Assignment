@@ -2,7 +2,7 @@ const form = document.getElementById("signupForm");
 const thankYouMsg = document.getElementById("thankYouMsg");
 
 function isValidName(input) {
-  const regex = /^[a-zA-Z]+$/;
+  const regex = /^[a-zA-Z\s]+$/;
   return regex.test(input);
 }
 
